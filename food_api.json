@@ -1,0 +1,948 @@
+{
+  "statusCode": 0,
+  "data": {
+    "statusMessage": "done successfully",
+    "pageOffset": {
+      "nextOffset": "CI5NEOskKICI9qqb9syLbTDCDjgE",
+      "widgetOffset": {
+        "restaurantCountWidget": "",
+        "inlineFacetFilter": "",
+        "collectionV5RestaurantListWidget_SimRestoRelevance_food": "9",
+        "collectionV5MastheadWidget": ""
+      }
+    },
+    "cards": [
+      {
+        "card": {
+          "card": {
+            "@type": "type.googleapis.com/swiggy.gandalf.widgets.v2.CollectionMasthead",
+            "collectionId": "83645",
+            "title": "North Indian",
+            "description": "Indulge with the best of North Indian cuisines.",
+            "imageId": "v1674029942/PC_Creative%20refresh/3D_bau/collections_new/North_Indian.png",
+            "aspectRatio": "3.44",
+            "cta": {
+              "link": "swiggy://collectionV2?collection_id=83645&tags=layout_CCS_NorthIndian,north%20indian,layout_NorthIndian,ads_pc_north_indian",
+              "type": "collectionv2"
+            },
+            "type": "COLLECTION_MASTHEAD_TYPE_IMAGE_WITH_TEXT",
+            "count": "223 restaurants"
+          }
+        }
+      },
+      {
+        "card": {
+          "card": {
+            "@type": "type.googleapis.com/swiggy.gandalf.widgets.v2.InlineViewFilterSortWidget",
+            "sortConfigs": [
+              {
+                "key": "relevance",
+                "title": "Relevance (Default)",
+                "selected": true,
+                "defaultSelection": true
+              },
+              {
+                "key": "deliveryTimeAsc",
+                "title": "Delivery Time"
+              },
+              {
+                "key": "modelBasedRatingDesc",
+                "title": "Rating"
+              },
+              {
+                "key": "costForTwoAsc",
+                "title": "Cost: Low to High"
+              },
+              {
+                "key": "costForTwoDesc",
+                "title": "Cost: High to Low"
+              }
+            ],
+            "restaurantCount": 223,
+            "facetList": [
+              {
+                "label": "Veg/Non-veg",
+                "id": "isVeg",
+                "selection": "SELECT_TYPE_SINGLESELECT",
+                "facetInfo": [
+                  {
+                    "label": "Pure veg",
+                    "id": "isVegfacetquery2",
+                    "analytics": {},
+                    "openFilter": true
+                  },
+                  {
+                    "label": "Non Veg",
+                    "id": "isVegfacetquery3",
+                    "analytics": {}
+                  }
+                ],
+                "viewType": "VIEW_TYPE_FLATTENED",
+                "subLabel": "Filter by"
+              },
+              {
+                "label": "Delivery Time",
+                "id": "deliveryTime",
+                "selection": "SELECT_TYPE_SINGLESELECT",
+                "facetInfo": [
+                  {
+                    "label": "Less than 30 mins",
+                    "id": "deliveryTimefacetquery2",
+                    "analytics": {},
+                    "openFilter": true
+                  },
+                  {
+                    "label": "Less than 45 mins",
+                    "id": "deliveryTimefacetquery3",
+                    "analytics": {}
+                  }
+                ],
+                "viewType": "VIEW_TYPE_FLATTENED",
+                "subLabel": "Filter by"
+              },
+              {
+                "label": "Cost for two",
+                "id": "costForTwo",
+                "selection": "SELECT_TYPE_MULTISELECT",
+                "facetInfo": [
+                  {
+                    "label": "Rs. 300-Rs. 600",
+                    "id": "costForTwofacetquery3",
+                    "analytics": {},
+                    "openFilter": true
+                  },
+                  {
+                    "label": "Greater than Rs. 600",
+                    "id": "costForTwofacetquery4",
+                    "analytics": {}
+                  },
+                  {
+                    "label": "Less than Rs. 300",
+                    "id": "costForTwofacetquery5",
+                    "analytics": {},
+                    "openFilter": true
+                  }
+                ],
+                "viewType": "VIEW_TYPE_HALF_CARD",
+                "subLabel": "Filter by"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "card": {
+          "card": {
+            "@type": "type.googleapis.com/swiggy.gandalf.widgets.v2.GridWidget",
+            "layout": {
+              "rows": 1,
+              "widgetPadding": {
+                "left": 16,
+                "top": 20,
+                "right": 16,
+                "bottom": 16
+              },
+              "scrollBar": {},
+              "widgetTheme": {
+                "defaultMode": {
+                  "backgroundColour": "#FFFFFF",
+                  "theme": "THEME_TYPE_LIGHT"
+                },
+                "darkMode": {
+                  "backgroundColour": "#1B3028",
+                  "theme": "THEME_TYPE_DARK"
+                }
+              }
+            },
+            "id": "restaurantCountWidget",
+            "gridElements": {
+              "infoWithStyle": {
+                "@type": "type.googleapis.com/swiggy.gandalf.widgets.v2.TextBoxV2",
+                "text": "223 restaurants to explore",
+                "headerStyling": {
+                  "textSize": 15,
+                  "textColor": "text_color_highest_emphasis",
+                  "textFontName": "FONT_NAME_HEADER_H5",
+                  "maxLines": 1
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "card": {
+          "card": {
+            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+            "info": {
+              "id": "147976",
+              "name": "Manjeet Restaurant",
+              "cloudinaryImageId": "ptfbxyoqzp7mxyfg2tzn",
+              "locality": "B Block",
+              "areaName": "Jail Road",
+              "costForTwo": "₹400 for two",
+              "cuisines": [
+                "North Indian",
+                "Mughlai",
+                "Biryani",
+                "Chinese"
+              ],
+              "avgRating": 3.8,
+              "feeDetails": {
+                "restaurantId": "147976",
+                "fees": [
+                  {
+                    "name": "BASE_DISTANCE",
+                    "fee": 9500
+                  },
+                  {
+                    "name": "BASE_TIME"
+                  },
+                  {
+                    "name": "ANCILLARY_SURGE_FEE"
+                  }
+                ],
+                "totalFee": 9500
+              },
+              "parentId": "13484",
+              "avgRatingString": "3.8",
+              "totalRatingsString": "1K+",
+              "promoted": true,
+              "adTrackingId": "cid=8847970~p=1~eid=0000018b-24bd-ab9f-2cb7-de76004f0173~srvts=1697128491935~83645",
+              "sla": {
+                "deliveryTime": 35,
+                "lastMileTravel": 8.1,
+                "serviceability": "SERVICEABLE",
+                "slaString": "35 mins",
+                "lastMileTravelString": "8.1 km",
+                "iconType": "ICON_TYPE_EMPTY"
+              },
+              "availability": {
+                "nextCloseTime": "2023-10-12 23:59:00",
+                "opened": true
+              },
+              "badges": {},
+              "isOpen": true,
+              "type": "F",
+              "badgesV2": {
+                "entityBadges": {
+                  "textBased": {},
+                  "imageBased": {},
+                  "textExtendedBadges": {}
+                }
+              },
+              "aggregatedDiscountInfoV3": {
+                "header": "₹150 OFF",
+                "subHeader": "ABOVE ₹399",
+                "discountTag": "FLAT DEAL"
+              },
+              "orderabilityCommunication": {
+                "title": {},
+                "subTitle": {},
+                "message": {},
+                "customIcon": {}
+              },
+              "differentiatedUi": {
+                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                "differentiatedUiMediaDetails": {
+                  "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                  "lottie": {},
+                  "video": {}
+                }
+              },
+              "reviewsSummary": {},
+              "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+              "restaurantOfferPresentationInfo": {}
+            },
+            "analytics": {},
+            "cta": {
+              "link": "swiggy://menu?restaurant_id=147976&source=collection&query=North%20Indian",
+              "text": "RESTAURANT_MENU",
+              "type": "DEEPLINK"
+            },
+            "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food"
+          },
+          "relevance": {
+            "type": "RELEVANCE_TYPE_ON_MENU_RETURN",
+            "sectionId": "MENU_RETURN_FOOD"
+          }
+        }
+      },
+      {
+        "card": {
+          "card": {
+            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+            "info": {
+              "id": "678513",
+              "name": "Sandoz",
+              "cloudinaryImageId": "b13f25f540dcf68f231d658c3a022077",
+              "locality": "Satya Niketan",
+              "areaName": "South Campus",
+              "costForTwo": "₹600 for two",
+              "cuisines": [
+                "North Indian",
+                "Chinese"
+              ],
+              "avgRating": 4.3,
+              "feeDetails": {
+                "restaurantId": "678513",
+                "fees": [
+                  {
+                    "name": "BASE_DISTANCE",
+                    "fee": 5600
+                  },
+                  {
+                    "name": "BASE_TIME"
+                  },
+                  {
+                    "name": "ANCILLARY_SURGE_FEE"
+                  }
+                ],
+                "totalFee": 5600
+              },
+              "parentId": "2571",
+              "avgRatingString": "4.3",
+              "totalRatingsString": "100+",
+              "promoted": true,
+              "adTrackingId": "cid=8852487~p=2~eid=0000018b-24bd-ab9f-2cb7-de77004f0246~srvts=1697128491935~83645",
+              "sla": {
+                "deliveryTime": 27,
+                "lastMileTravel": 4.3,
+                "serviceability": "SERVICEABLE",
+                "slaString": "27 mins",
+                "lastMileTravelString": "4.3 km",
+                "iconType": "ICON_TYPE_EMPTY"
+              },
+              "availability": {
+                "nextCloseTime": "2023-10-13 00:00:00",
+                "opened": true
+              },
+              "badges": {},
+              "isOpen": true,
+              "aggregatedDiscountInfoV2": {},
+              "type": "F",
+              "badgesV2": {
+                "entityBadges": {
+                  "textBased": {},
+                  "imageBased": {},
+                  "textExtendedBadges": {}
+                }
+              },
+              "orderabilityCommunication": {
+                "title": {},
+                "subTitle": {},
+                "message": {},
+                "customIcon": {}
+              },
+              "differentiatedUi": {
+                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                "differentiatedUiMediaDetails": {
+                  "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                  "lottie": {},
+                  "video": {}
+                }
+              },
+              "reviewsSummary": {},
+              "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+              "restaurantOfferPresentationInfo": {}
+            },
+            "analytics": {},
+            "cta": {
+              "link": "swiggy://menu?restaurant_id=678513&source=collection&query=North%20Indian",
+              "text": "RESTAURANT_MENU",
+              "type": "DEEPLINK"
+            },
+            "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food"
+          },
+          "relevance": {
+            "type": "RELEVANCE_TYPE_ON_MENU_RETURN",
+            "sectionId": "MENU_RETURN_FOOD"
+          }
+        }
+      },
+      {
+        "card": {
+          "card": {
+            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+            "info": {
+              "id": "727013",
+              "name": "Moti Mahal Delux",
+              "cloudinaryImageId": "dcfe2edf703b0669d5e885622fb5aa07",
+              "locality": "old rajendar nagar",
+              "areaName": "Karol Bagh",
+              "costForTwo": "₹500 for two",
+              "cuisines": [
+                "North Indian",
+                "Chinese",
+                "Indian",
+                "Tandoor"
+              ],
+              "avgRating": 3.8,
+              "feeDetails": {
+                "restaurantId": "727013",
+                "fees": [
+                  {
+                    "name": "BASE_DISTANCE",
+                    "fee": 9400
+                  },
+                  {
+                    "name": "BASE_TIME"
+                  },
+                  {
+                    "name": "ANCILLARY_SURGE_FEE"
+                  }
+                ],
+                "totalFee": 9400
+              },
+              "parentId": "2113",
+              "avgRatingString": "3.8",
+              "totalRatingsString": "50+",
+              "promoted": true,
+              "adTrackingId": "cid=8888621~p=3~eid=0000018b-24bd-ab9f-2cb7-de78004f0376~srvts=1697128491935~83645",
+              "sla": {
+                "deliveryTime": 31,
+                "lastMileTravel": 9.9,
+                "serviceability": "SERVICEABLE",
+                "slaString": "31 mins",
+                "lastMileTravelString": "9.9 km",
+                "iconType": "ICON_TYPE_EMPTY"
+              },
+              "availability": {
+                "nextCloseTime": "2023-10-12 23:59:00",
+                "opened": true
+              },
+              "badges": {},
+              "isOpen": true,
+              "type": "F",
+              "badgesV2": {
+                "entityBadges": {
+                  "textBased": {},
+                  "imageBased": {},
+                  "textExtendedBadges": {}
+                }
+              },
+              "aggregatedDiscountInfoV3": {
+                "header": "10% OFF",
+                "subHeader": "ABOVE ₹1500",
+                "discountTag": "FLAT DEAL"
+              },
+              "orderabilityCommunication": {
+                "title": {},
+                "subTitle": {},
+                "message": {},
+                "customIcon": {}
+              },
+              "differentiatedUi": {
+                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                "differentiatedUiMediaDetails": {
+                  "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                  "lottie": {},
+                  "video": {}
+                }
+              },
+              "reviewsSummary": {},
+              "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+              "isNewlyOnboarded": true,
+              "restaurantOfferPresentationInfo": {}
+            },
+            "analytics": {},
+            "cta": {
+              "link": "swiggy://menu?restaurant_id=727013&source=collection&query=North%20Indian",
+              "text": "RESTAURANT_MENU",
+              "type": "DEEPLINK"
+            },
+            "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food"
+          },
+          "relevance": {
+            "type": "RELEVANCE_TYPE_ON_MENU_RETURN",
+            "sectionId": "MENU_RETURN_FOOD"
+          }
+        }
+      },
+      {
+        "card": {
+          "card": {
+            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+            "info": {
+              "id": "181774",
+              "name": "Chawla Chicken",
+              "cloudinaryImageId": "nrmkx1itkgmafnzybxk4",
+              "locality": "J Block",
+              "areaName": "Rajouri Garden",
+              "costForTwo": "₹500 for two",
+              "cuisines": [
+                "Indian",
+                "Mughlai",
+                "Chinese",
+                "Punjabi"
+              ],
+              "avgRating": 3.9,
+              "feeDetails": {
+                "restaurantId": "181774",
+                "fees": [
+                  {
+                    "name": "BASE_DISTANCE",
+                    "fee": 9500
+                  },
+                  {
+                    "name": "BASE_TIME"
+                  },
+                  {
+                    "name": "ANCILLARY_SURGE_FEE"
+                  }
+                ],
+                "totalFee": 9500
+              },
+              "parentId": "15269",
+              "avgRatingString": "3.9",
+              "totalRatingsString": "1K+",
+              "promoted": true,
+              "adTrackingId": "cid=8773549~p=4~eid=0000018b-24bd-ab9f-2cb7-de79004f047b~srvts=1697128491935~83645",
+              "sla": {
+                "deliveryTime": 32,
+                "lastMileTravel": 8.8,
+                "serviceability": "SERVICEABLE",
+                "slaString": "32 mins",
+                "lastMileTravelString": "8.8 km",
+                "iconType": "ICON_TYPE_EMPTY"
+              },
+              "availability": {
+                "nextCloseTime": "2023-10-13 00:00:00",
+                "opened": true
+              },
+              "badges": {},
+              "isOpen": true,
+              "type": "F",
+              "badgesV2": {
+                "entityBadges": {
+                  "imageBased": {},
+                  "textExtendedBadges": {},
+                  "textBased": {}
+                }
+              },
+              "aggregatedDiscountInfoV3": {
+                "header": "₹100 OFF",
+                "subHeader": "ABOVE ₹599",
+                "discountTag": "FLAT DEAL"
+              },
+              "orderabilityCommunication": {
+                "title": {},
+                "subTitle": {},
+                "message": {},
+                "customIcon": {}
+              },
+              "differentiatedUi": {
+                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                "differentiatedUiMediaDetails": {
+                  "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                  "lottie": {},
+                  "video": {}
+                }
+              },
+              "reviewsSummary": {},
+              "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+              "restaurantOfferPresentationInfo": {}
+            },
+            "analytics": {},
+            "cta": {
+              "link": "swiggy://menu?restaurant_id=181774&source=collection&query=North%20Indian",
+              "text": "RESTAURANT_MENU",
+              "type": "DEEPLINK"
+            },
+            "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food"
+          },
+          "relevance": {
+            "type": "RELEVANCE_TYPE_ON_MENU_RETURN",
+            "sectionId": "MENU_RETURN_FOOD"
+          }
+        }
+      },
+      {
+        "card": {
+          "card": {
+            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+            "info": {
+              "id": "590426",
+              "name": "Grills and Chopsticks Co.",
+              "cloudinaryImageId": "yhihtgur6budqkjb3xiz",
+              "locality": "A Block ",
+              "areaName": "Rajouri Garden",
+              "costForTwo": "₹250 for two",
+              "cuisines": [
+                "Thalis",
+                "Kebabs",
+                "Tandoor"
+              ],
+              "avgRating": 3.7,
+              "feeDetails": {
+                "restaurantId": "590426",
+                "fees": [
+                  {
+                    "name": "BASE_DISTANCE",
+                    "fee": 9400
+                  },
+                  {
+                    "name": "BASE_TIME"
+                  },
+                  {
+                    "name": "ANCILLARY_SURGE_FEE"
+                  }
+                ],
+                "totalFee": 9400
+              },
+              "parentId": "374273",
+              "avgRatingString": "3.7",
+              "totalRatingsString": "500+",
+              "promoted": true,
+              "adTrackingId": "cid=8851711~p=5~eid=0000018b-24bd-ab9f-2cb7-de7a004f057a~srvts=1697128491935~83645",
+              "sla": {
+                "deliveryTime": 31,
+                "lastMileTravel": 9.2,
+                "serviceability": "SERVICEABLE",
+                "slaString": "31 mins",
+                "lastMileTravelString": "9.2 km",
+                "iconType": "ICON_TYPE_EMPTY"
+              },
+              "availability": {
+                "nextCloseTime": "2023-10-12 23:59:00",
+                "opened": true
+              },
+              "badges": {},
+              "isOpen": true,
+              "type": "F",
+              "badgesV2": {
+                "entityBadges": {
+                  "textBased": {},
+                  "imageBased": {},
+                  "textExtendedBadges": {}
+                }
+              },
+              "aggregatedDiscountInfoV3": {
+                "header": "₹150 OFF",
+                "subHeader": "ABOVE ₹599",
+                "discountTag": "FLAT DEAL"
+              },
+              "orderabilityCommunication": {
+                "title": {},
+                "subTitle": {},
+                "message": {},
+                "customIcon": {}
+              },
+              "differentiatedUi": {
+                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                "differentiatedUiMediaDetails": {
+                  "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                  "lottie": {},
+                  "video": {}
+                }
+              },
+              "reviewsSummary": {},
+              "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+              "restaurantOfferPresentationInfo": {}
+            },
+            "analytics": {},
+            "cta": {
+              "link": "swiggy://menu?restaurant_id=590426&source=collection&query=North%20Indian",
+              "text": "RESTAURANT_MENU",
+              "type": "DEEPLINK"
+            },
+            "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food"
+          },
+          "relevance": {
+            "type": "RELEVANCE_TYPE_ON_MENU_RETURN",
+            "sectionId": "MENU_RETURN_FOOD"
+          }
+        }
+      },
+      {
+        "card": {
+          "card": {
+            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+            "info": {
+              "id": "432928",
+              "name": "Capital Restaurant",
+              "cloudinaryImageId": "uihnsmjvowuayp6jqiyc",
+              "locality": "Gopinath Bazar",
+              "areaName": "Delhi Cantt.",
+              "costForTwo": "₹700 for two",
+              "cuisines": [
+                "Chinese",
+                "Mughlai",
+                "North Indian",
+                "Desserts"
+              ],
+              "avgRating": 4.1,
+              "feeDetails": {
+                "restaurantId": "432928",
+                "fees": [
+                  {
+                    "name": "BASE_DISTANCE",
+                    "fee": 4200
+                  },
+                  {
+                    "name": "BASE_TIME"
+                  },
+                  {
+                    "name": "ANCILLARY_SURGE_FEE"
+                  }
+                ],
+                "totalFee": 4200
+              },
+              "parentId": "55790",
+              "avgRatingString": "4.1",
+              "totalRatingsString": "10+",
+              "sla": {
+                "deliveryTime": 25,
+                "lastMileTravel": 2.9,
+                "serviceability": "SERVICEABLE",
+                "slaString": "25 mins",
+                "lastMileTravelString": "2.9 km",
+                "iconType": "ICON_TYPE_EMPTY"
+              },
+              "availability": {
+                "nextCloseTime": "2023-10-12 23:05:00",
+                "opened": true
+              },
+              "badges": {},
+              "isOpen": true,
+              "aggregatedDiscountInfoV2": {},
+              "type": "F",
+              "badgesV2": {
+                "entityBadges": {
+                  "textBased": {},
+                  "imageBased": {},
+                  "textExtendedBadges": {}
+                }
+              },
+              "orderabilityCommunication": {
+                "title": {},
+                "subTitle": {},
+                "message": {},
+                "customIcon": {}
+              },
+              "differentiatedUi": {
+                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                "differentiatedUiMediaDetails": {
+                  "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                  "lottie": {},
+                  "video": {}
+                }
+              },
+              "reviewsSummary": {},
+              "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+              "restaurantOfferPresentationInfo": {}
+            },
+            "analytics": {},
+            "cta": {
+              "link": "swiggy://menu?restaurant_id=432928&source=collection&query=North%20Indian",
+              "text": "RESTAURANT_MENU",
+              "type": "DEEPLINK"
+            },
+            "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food"
+          },
+          "relevance": {
+            "type": "RELEVANCE_TYPE_ON_MENU_RETURN",
+            "sectionId": "MENU_RETURN_FOOD"
+          }
+        }
+      },
+      {
+        "card": {
+          "card": {
+            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+            "info": {
+              "id": "2213",
+              "name": "QD's Restaurant",
+              "cloudinaryImageId": "lx1aynhai9ufjqwm3yby",
+              "locality": "Satya Niketan",
+              "areaName": "Satya Niketan",
+              "costForTwo": "₹500 for two",
+              "cuisines": [
+                "North Indian",
+                "Chinese",
+                "Snacks"
+              ],
+              "avgRating": 4,
+              "feeDetails": {
+                "restaurantId": "2213",
+                "fees": [
+                  {
+                    "name": "BASE_DISTANCE",
+                    "fee": 5600
+                  },
+                  {
+                    "name": "BASE_TIME"
+                  },
+                  {
+                    "name": "ANCILLARY_SURGE_FEE"
+                  }
+                ],
+                "totalFee": 5600
+              },
+              "parentId": "2316",
+              "avgRatingString": "4.0",
+              "totalRatingsString": "10K+",
+              "sla": {
+                "deliveryTime": 28,
+                "lastMileTravel": 4.4,
+                "serviceability": "SERVICEABLE",
+                "slaString": "28 mins",
+                "lastMileTravelString": "4.4 km",
+                "iconType": "ICON_TYPE_EMPTY"
+              },
+              "availability": {
+                "nextCloseTime": "2023-10-12 23:59:00",
+                "opened": true
+              },
+              "badges": {},
+              "isOpen": true,
+              "type": "F",
+              "badgesV2": {
+                "entityBadges": {
+                  "textBased": {},
+                  "imageBased": {},
+                  "textExtendedBadges": {}
+                }
+              },
+              "aggregatedDiscountInfoV3": {
+                "header": "60% OFF",
+                "subHeader": "UPTO ₹120"
+              },
+              "orderabilityCommunication": {
+                "title": {},
+                "subTitle": {},
+                "message": {},
+                "customIcon": {}
+              },
+              "differentiatedUi": {
+                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                "differentiatedUiMediaDetails": {
+                  "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                  "lottie": {},
+                  "video": {}
+                }
+              },
+              "reviewsSummary": {},
+              "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+              "restaurantOfferPresentationInfo": {}
+            },
+            "analytics": {},
+            "cta": {
+              "link": "swiggy://menu?restaurant_id=2213&source=collection&query=North%20Indian",
+              "text": "RESTAURANT_MENU",
+              "type": "DEEPLINK"
+            },
+            "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food"
+          },
+          "relevance": {
+            "type": "RELEVANCE_TYPE_ON_MENU_RETURN",
+            "sectionId": "MENU_RETURN_FOOD"
+          }
+        }
+      },
+      {
+        "card": {
+          "card": {
+            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+            "info": {
+              "id": "312289",
+              "name": "KC restaurant",
+              "cloudinaryImageId": "jn5kvauxee1qy8txmunw",
+              "locality": "Main Market",
+              "areaName": "South Campus",
+              "costForTwo": "₹250 for two",
+              "cuisines": [
+                "Chinese",
+                "Asian",
+                "Snacks",
+                "Beverages",
+                "Street Food",
+                "Italian"
+              ],
+              "avgRating": 4,
+              "feeDetails": {
+                "restaurantId": "312289",
+                "fees": [
+                  {
+                    "name": "BASE_DISTANCE",
+                    "fee": 5000
+                  },
+                  {
+                    "name": "BASE_TIME"
+                  },
+                  {
+                    "name": "ANCILLARY_SURGE_FEE"
+                  }
+                ],
+                "totalFee": 5000
+              },
+              "parentId": "1936",
+              "avgRatingString": "4.0",
+              "totalRatingsString": "1K+",
+              "sla": {
+                "deliveryTime": 25,
+                "lastMileTravel": 4.4,
+                "serviceability": "SERVICEABLE",
+                "slaString": "25 mins",
+                "lastMileTravelString": "4.4 km",
+                "iconType": "ICON_TYPE_EMPTY"
+              },
+              "availability": {
+                "nextCloseTime": "2023-10-12 23:59:00",
+                "opened": true
+              },
+              "badges": {},
+              "isOpen": true,
+              "type": "F",
+              "badgesV2": {
+                "entityBadges": {
+                  "textBased": {},
+                  "imageBased": {},
+                  "textExtendedBadges": {}
+                }
+              },
+              "aggregatedDiscountInfoV3": {
+                "header": "50% OFF",
+                "subHeader": "UPTO ₹100"
+              },
+              "orderabilityCommunication": {
+                "title": {},
+                "subTitle": {},
+                "message": {},
+                "customIcon": {}
+              },
+              "differentiatedUi": {
+                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                "differentiatedUiMediaDetails": {
+                  "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                  "lottie": {},
+                  "video": {}
+                }
+              },
+              "reviewsSummary": {},
+              "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+              "restaurantOfferPresentationInfo": {}
+            },
+            "analytics": {},
+            "cta": {
+              "link": "swiggy://menu?restaurant_id=312289&source=collection&query=North%20Indian",
+              "text": "RESTAURANT_MENU",
+              "type": "DEEPLINK"
+            },
+            "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food"
+          },
+          "relevance": {
+            "type": "RELEVANCE_TYPE_ON_MENU_RETURN",
+            "sectionId": "MENU_RETURN_FOOD"
+          }
+        }
+      }
+    ],
+    "firstOffsetRequest": true,
+    "nextFetch": 3
+  },
+  "tid": "a6a2fb19-a01b-48f2-9e5b-8b5e033bed61",
+  "sid": "9umee258-0cb4-4f36-be76-4aac8fdfb7ba",
+  "deviceId": "cb8b919d-986d-72b7-b2a1-e91892a1e070",
+  "csrfToken": "pmipvlZNMBOf-ucTvjS8_bCojW8sYxTWTH6dIEr0"
+            }
