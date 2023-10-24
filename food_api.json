@@ -185,7 +185,7 @@
                 "North Indian",
                 "Mughlai",
                 "Biryani",
-                "Chinese"
+               
               ],
               "avgRating": 3.8,
               "feeDetails": {
@@ -372,8 +372,7 @@
               "areaName": "Karol Bagh",
               "costForTwo": "₹500 for two",
               "cuisines": [
-                "North Indian",
-                "Chinese",
+                "North Indian",        
                 "Indian",
                 "Tandoor"
               ],
@@ -474,7 +473,6 @@
                 "Indian",
                 "Mughlai",
                 "Chinese",
-                "Punjabi"
               ],
               "avgRating": 3.9,
               "feeDetails": {
@@ -667,7 +665,6 @@
               "costForTwo": "₹700 for two",
               "cuisines": [
                 "Chinese",
-                "Mughlai",
                 "North Indian",
                 "Desserts"
               ],
@@ -852,11 +849,8 @@
               "areaName": "South Campus",
               "costForTwo": "₹250 for two",
               "cuisines": [
-                "Chinese",
                 "Asian",
-                "Snacks",
                 "Beverages",
-                "Street Food",
                 "Italian"
               ],
               "avgRating": 4,
